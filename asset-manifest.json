@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/poke-shine/static/css/main.397a75cc.chunk.css",
+    "main.js": "/poke-shine/static/js/main.a3763cee.chunk.js",
+    "main.js.map": "/poke-shine/static/js/main.a3763cee.chunk.js.map",
+    "runtime-main.js": "/poke-shine/static/js/runtime-main.5d7edb96.js",
+    "runtime-main.js.map": "/poke-shine/static/js/runtime-main.5d7edb96.js.map",
+    "static/js/2.d4ad31fa.chunk.js": "/poke-shine/static/js/2.d4ad31fa.chunk.js",
+    "static/js/2.d4ad31fa.chunk.js.map": "/poke-shine/static/js/2.d4ad31fa.chunk.js.map",
+    "static/js/3.3d448c27.chunk.js": "/poke-shine/static/js/3.3d448c27.chunk.js",
+    "static/js/3.3d448c27.chunk.js.map": "/poke-shine/static/js/3.3d448c27.chunk.js.map",
+    "index.html": "/poke-shine/index.html",
+    "static/css/main.397a75cc.chunk.css.map": "/poke-shine/static/css/main.397a75cc.chunk.css.map",
+    "static/js/2.d4ad31fa.chunk.js.LICENSE.txt": "/poke-shine/static/js/2.d4ad31fa.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/poke-shine/static/media/poke-balls.790cfd25.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d7edb96.js",
+    "static/js/2.d4ad31fa.chunk.js",
+    "static/css/main.397a75cc.chunk.css",
+    "static/js/main.a3763cee.chunk.js"
+  ]
+}

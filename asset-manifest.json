@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/poke-shine/static/css/main.397a75cc.chunk.css",
-    "main.js": "/poke-shine/static/js/main.a3763cee.chunk.js",
-    "main.js.map": "/poke-shine/static/js/main.a3763cee.chunk.js.map",
+    "main.js": "/poke-shine/static/js/main.7936111c.chunk.js",
+    "main.js.map": "/poke-shine/static/js/main.7936111c.chunk.js.map",
     "runtime-main.js": "/poke-shine/static/js/runtime-main.5d7edb96.js",
     "runtime-main.js.map": "/poke-shine/static/js/runtime-main.5d7edb96.js.map",
     "static/js/2.d4ad31fa.chunk.js": "/poke-shine/static/js/2.d4ad31fa.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.5d7edb96.js",
     "static/js/2.d4ad31fa.chunk.js",
     "static/css/main.397a75cc.chunk.css",
-    "static/js/main.a3763cee.chunk.js"
+    "static/js/main.7936111c.chunk.js"
   ]
 }

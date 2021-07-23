@@ -42,9 +42,9 @@
 }
 
 /* ///// App ///// */
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-header {
   background-image: url("poke-balls.jpg");
@@ -80,12 +80,24 @@ p {
 .btn {
   font-family: 'Pokemon', sans-serif;
   -webkit-text-stroke: 1px black;
+  text-decoration: underline #2a75bb;
+  border-style: none;
 }
   
 .btn:hover {
   -webkit-text-stroke: 1px #2a75bb;
   background: transparent;
   color: #ffc107;
+}
+
+.btn:active {
+  color: #fc2e2e;
+}
+
+.btn:focus {
+  font-family: 'Pokemon', sans-serif;
+  -webkit-text-stroke: 1px black;
+  text-decoration: underline #2a75bb;
 }
 
 .search-box {
@@ -98,11 +110,13 @@ p {
   font-family: 'Lato', sans-serif;
   color: white;
   border: 2px solid #fc2e2e;
+
 }
 
 .form-control:focus {
   background: transparent;
   color: white;
+  border: 2px solid #fc2e2e;
 }
 
 

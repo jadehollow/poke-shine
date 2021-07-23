@@ -27,6 +27,18 @@ class Pokemon extends React.Component {
     return arrOfWordsCased.join(" ");
   }
 
+  lowerCase(str) {
+    const arrOfWords2 = str.split(" ");
+    const arrOfWordsCased2 = [];
+
+    for (let i = 0; i < arrOfWords2.length; i++) {
+      const word2 = arrOfWords2[i];
+      arrOfWordsCased2.push(word2[0].toLowerCase() + word2.slice(1).toLowerCase());
+    }
+
+    return arrOfWordsCased2.join(" ");
+  }
+
   getNewPokemon() {
     // I want real pokemon, dang it
     const randomNumber = Math.round(Math.random() * 898)
@@ -48,7 +60,7 @@ class Pokemon extends React.Component {
   searchPokemon() {
     // Where dem beasties at
     let pokemonName = document.getElementById("pokeInput").value;
-    const url2 = `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+    const url2 = `https://pokeapi.co/api/v2/pokemon/${this.lowerCase(pokemonName)}`
     fetch(url2)
       .then(response => response.json())
       .then(data => {
@@ -95,26 +107,29 @@ class Pokemon extends React.Component {
           <button
             type="button"
             onClick={() => this.getNewPokemon()}
-            className="btn btn-outline-warning btn-lg"
+            className="btn btn-outline-warning btn-lg shadow-none"
           >
             Random Pokémon
           </button>
         </div>
 
         <div className="search-box">
+          <form>
             <input
               id="pokeInput"
               className="form-control"
               type="text"
+              placeholder="Name or Number"
             />
             <button
-              id="searchBtn"
+              id="search_button"
               type="button"
               className="btn btn-outline-warning btn-lg"
               onClick={() => this.searchPokemon()}
             >
               Search Pokémon
             </button>
+          </form>
         </div>
 
       </div>

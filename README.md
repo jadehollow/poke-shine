@@ -1,4 +1,4 @@
-##Pokeshine
+#Pokeshine
 
 An app built with ReactJS to:
 
@@ -6,5 +6,6 @@ An app built with ReactJS to:
 2. See their regular and shiny versions
 3. See their species type
 
-#Try it out
+##Try it out
+
 You can use the app here: https://javahollow.github.io/poke-shine/
